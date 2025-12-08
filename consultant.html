@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>個別コンサルタント | モバイルプリンス</title>
+  <meta name="description" content="モバイルプリンスの個別コンサルタント。スマホルールの策定、設定・買い替え相談、スモールビジネス支援など、個別にサポートします。">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo"><img src="images/logo.png" alt="MOBILE PRINCE" height="40"></a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="lecture.html">講演・出前授業</a></li>
+          <li><a href="profile.html">プロフィール</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" aria-label="メニュー">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <div class="container">
+        <h1 class="page-title">個別コンサルタント</h1>
+        <p class="page-subtitle">スマホ・ネットのお悩み、個別にサポートします</p>
+      </div>
+    </div>
+
+    <section class="content-section">
+      <div class="container">
+        <h2>サービス内容</h2>
+        <ul>
+          <li>
+            <strong>親子でのスマホルール策定</strong><br>
+            お子さんにスマホを持たせる際のルール作りをサポート。親子での話し合いに立ち会い、双方が納得できるルールを一緒に考えます。
+          </li>
+          <li>
+            <strong>スマホの設定・買い替え相談</strong><br>
+            スマホの初期設定、機種変更時のデータ移行、新しいスマホ選びのアドバイスなど。分からないことを丁寧にサポートします。
+          </li>
+          <li>
+            <strong>スモールビジネス支援</strong><br>
+            SNSの活用方法、情報発信のコツ、デジタルツールの導入など。小規模事業者のデジタル化をお手伝いします。
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <h2>料金</h2>
+        <table class="price-table">
+          <tr>
+            <th>内容</th>
+            <th>料金（税込）</th>
+          </tr>
+          <tr>
+            <td>個別コンサルタント</td>
+            <td>1時間 5,000円〜</td>
+          </tr>
+        </table>
+        <p class="price-note">※ 内容・時間により変動します。まずはお気軽にお問い合わせください。</p>
+        <p class="price-note">※ オンライン（Zoom等）での対応も可能です。</p>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <h2>ご依頼の流れ</h2>
+        <ul>
+          <li><strong>1. お問い合わせ</strong><br>フォームにて、ご相談内容をお知らせください。</li>
+          <li><strong>2. 日程調整</strong><br>ご希望の日時・場所（対面 or オンライン）を調整します。</li>
+          <li><strong>3. コンサルタント実施</strong><br>お悩みに合わせて、丁寧にサポートします。</li>
+          <li><strong>4. お支払い</strong><br>当日または後日、お支払いをお願いします。</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <h2 class="cta-title">ご相談・お申し込み</h2>
+        <p class="cta-text">まずはお気軽にお問い合わせください。</p>
+        <a href="contact.html" class="btn btn-primary btn-large">お問い合わせ</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-logo">MOBILE PRINCE</p>
+      <nav class="footer-nav">
+        <a href="lecture.html">講演・出前授業</a>
+        <a href="profile.html">プロフィール</a>
+        <a href="contact.html">お問い合わせ</a>
+      </nav>
+      <p class="footer-copy">&copy; 2025 モバイルプリンス All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.nav');
+    menuToggle.addEventListener('click', () => {
+      nav.classList.toggle('is-open');
+      menuToggle.classList.toggle('is-open');
+    });
+  </script>
+</body>
+</html>

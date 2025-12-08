@@ -22,7 +22,7 @@
   --spacing-2xl: 5rem;
   
   --max-width: 1200px;
-  --header-height: 80px;
+  --header-height: 120px;
 }
 
 /* ====================================
@@ -144,7 +144,7 @@ ul {
 }
 
 .logo img {
-  height: 60px;
+  height: 100px;
   width: auto;
 }
 
@@ -359,6 +359,24 @@ a.service-card:hover {
 
 .media-list li:last-child {
   border-bottom: none;
+}
+
+.media-list a {
+  color: var(--color-accent);
+  transition: opacity 0.2s ease;
+}
+
+.media-list a:hover {
+  opacity: 0.7;
+}
+
+.content-section a {
+  color: var(--color-accent);
+  transition: opacity 0.2s ease;
+}
+
+.content-section a:hover {
+  opacity: 0.7;
 }
 
 .media-book {
