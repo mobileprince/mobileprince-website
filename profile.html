@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>プロフィール | モバイルプリンス</title>
+  <meta name="description" content="モバイルプリンス（島袋コウ）のプロフィール。1987年沖縄市出身。スマホ・ネット活用の専門家。">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">MOBILE PRINCE</a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="lecture.html">講演・出前授業</a></li>
+          <li><a href="profile.html">プロフィール</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" aria-label="メニュー">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <div class="container">
+        <h1 class="page-title">プロフィール</h1>
+      </div>
+    </div>
+
+    <section class="content-section">
+      <div class="container">
+        <div class="profile-content">
+          <div class="profile-image">
+            <img src="images/profile.jpg" alt="モバイルプリンス" width="280" height="350">
+          </div>
+          <div class="profile-text">
+            <h2 class="profile-name">モバイルプリンス / 島袋コウ</h2>
+            <p class="profile-name-en">MOBILE PRINCE / Shimabukuro Ko</p>
+            <p class="profile-bio">
+              1987年、沖縄市出身。スマホ・ネット活用の専門家。<br><br>
+              RBCiラジオ「アップ!!」木曜コメンテーター、琉球新報の小中学生新聞「りゅうPON!」連載、沖縄タイムス「タイムス＋Eye」コメント提供など、多方面でスマホやネットに関する情報を発信している。<br><br>
+              2020年出版の著書『しくじりから学ぶ13歳からのスマホルール』（旬報社）は6刷1万部を突破。<br><br>
+              学校での講演活動は年間40回以上。また、中高年向けスマホ教室「スマホ塾 沖縄」を主宰し、スマホビギナーの方々にも丁寧に使い方を教えている。<br><br>
+              子どもからシニアまで幅広い世代に向けて、デジタルの楽しさと安全な使い方を分かりやすく伝えている。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <h2>現在のレギュラー・連載</h2>
+        <ul>
+          <li>RBCiラジオ「アップ!!」木曜コメンテーター</li>
+          <li>琉球新報「りゅうPON!」連載（2017年〜）</li>
+          <li>沖縄タイムス「タイムス＋Eye」コメント提供</li>
+          <li>沖縄国税事務所「スマート申告納税大使」</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <h2>著書</h2>
+        <div class="media-book">
+          <img src="images/book.jpg" alt="しくじりから学ぶ13歳からのスマホルール" width="120" height="170">
+          <div class="media-book-info">
+            <h3>しくじりから学ぶ13歳からのスマホルール</h3>
+            <p>旬報社（2020年）<br>6刷・1万部突破</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <h2>その他の活動</h2>
+        <ul>
+          <li>YouTube「せやろがいビデオ」制作スタッフ</li>
+          <li>中高年向けスマホ教室「スマホ塾 沖縄」主宰</li>
+          <li>文芸誌「新沖縄文学」寄稿</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <h2 class="cta-title">お仕事のご依頼・ご相談</h2>
+        <p class="cta-text">講演会、取材、出演依頼など、お気軽にお問い合わせください。</p>
+        <a href="contact.html" class="btn btn-primary btn-large">お問い合わせ</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-logo">MOBILE PRINCE</p>
+      <nav class="footer-nav">
+        <a href="lecture.html">講演・出前授業</a>
+        <a href="profile.html">プロフィール</a>
+        <a href="contact.html">お問い合わせ</a>
+      </nav>
+      <p class="footer-copy">&copy; 2025 モバイルプリンス All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.nav');
+    menuToggle.addEventListener('click', () => {
+      nav.classList.toggle('is-open');
+      menuToggle.classList.toggle('is-open');
+    });
+  </script>
+</body>
+</html>
