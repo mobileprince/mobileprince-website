@@ -30,7 +30,7 @@
   --spacing-2xl: 5rem;
   
   --max-width: 1200px;
-  --header-height: 120px;
+  --header-height: 220px;
 }
 
 /* ====================================
@@ -156,7 +156,7 @@ ul {
 }
 
 .logo img {
-  height: 100px;
+  height: 200px;
   width: auto;
 }
 
