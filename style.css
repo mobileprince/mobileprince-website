@@ -792,6 +792,27 @@ a.media-book:hover {
   display: none;
 }
 
+.achievement-category {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: var(--spacing-lg);
+  margin-bottom: var(--spacing-sm);
+  padding-bottom: var(--spacing-xs);
+  border-bottom: 2px solid transparent;
+  border-image: var(--neon-gradient) 1;
+}
+
+.achievement-category:first-of-type {
+  margin-top: var(--spacing-md);
+}
+
+.flow-note {
+  display: block;
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  margin-top: var(--spacing-xs);
+}
+
 /* ====================================
    Profile Page
    ==================================== */
