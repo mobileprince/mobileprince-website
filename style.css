@@ -853,8 +853,12 @@ a.media-book:hover {
 }
 
 .profile-bio {
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
   line-height: 1.9;
+}
+
+.profile-bio:last-of-type {
+  margin-bottom: 0;
 }
 
 /* ====================================
@@ -930,12 +934,20 @@ a.media-book:hover {
   .profile-content {
     flex-direction: column;
     align-items: center;
-    text-align: center;
   }
 
   .profile-image {
     flex: none;
     max-width: 240px;
+  }
+
+  .profile-text {
+    text-align: left;
+  }
+
+  .profile-name,
+  .profile-name-en {
+    text-align: center;
   }
 }
 
