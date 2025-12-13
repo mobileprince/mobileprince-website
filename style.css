@@ -167,7 +167,7 @@ ul {
 
 .nav-list a {
   font-size: 0.9375rem;
-  font-weight: 500;
+  font-weight: 400;
   transition: color 0.2s ease;
 }
 
@@ -488,7 +488,7 @@ a.service-card:hover .service-icon {
 .highlight-label {
   font-size: 0.9375rem;
   color: var(--color-text-muted);
-  font-weight: 500;
+  font-weight: 400;
 }
 
 /* ====================================
@@ -524,7 +524,7 @@ a.service-card:hover .service-icon {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  font-weight: 500;
+  font-weight: 400;
   transition: opacity 0.2s ease;
 }
 
@@ -537,7 +537,7 @@ a.service-card:hover .service-icon {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  font-weight: 500;
+  font-weight: 400;
   transition: opacity 0.2s ease;
 }
 
@@ -598,7 +598,7 @@ a.media-book:hover {
   border-radius: 4px;
   font-size: 0.75rem;
   color: var(--neon-pink);
-  font-weight: 500;
+  font-weight: 400;
 }
 
 /* ====================================

@@ -13,10 +13,13 @@
     gtag('js', new Date());
     gtag('config', 'G-E6J7L73CC2');
   </script>
-  <link rel="stylesheet" href="style.css">
+  <!-- Preconnect to font origins -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Optimized font loading -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet"></noscript>
+  <link rel="stylesheet" href="style.css">
   <style>
     .contact-page {
       padding-top: var(--header-height);
@@ -38,7 +41,7 @@
 <body>
   <header class="header">
     <div class="header-inner">
-      <a href="index.html" class="logo"><img src="images/logo.png" alt="MOBILE PRINCE" height="40"></a>
+      <a href="index.html" class="logo"><img src="images/logo.png" alt="MOBILE PRINCE" width="560" height="210" fetchpriority="high"></a>
       <nav class="nav">
         <ul class="nav-list">
           <li><a href="lecture.html">講演・出前授業</a></li>
